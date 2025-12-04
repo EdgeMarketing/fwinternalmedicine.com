@@ -1,3 +1,95 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+ -moz-osx-font-smoothing: grayscale;
+ -webkit-font-smoothing: antialiased;
+ font-smoothing: antialiased;
+ font-weight: 400;
+}
+
+p {
+  @apply text-brandBlue1;
+}
+
+/* === SECTION LAYOUT SYSTEM === */
+
+.section-wrapper {
+  @apply py-16 sm:py-20 lg:py-24;
+}
+
+.section-heading-grid {
+  @apply grid gap-8 items-end lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)];
+}
+
+/* Super small label above the main heading */
+.super-head {
+  @apply mb-2 text-sm font-semibold uppercase tracking-[0.25em] text-brandBlue2;
+}
+
+/* Main heading */
+.main-head {
+  @apply text-3xl font-bold !leading-tight text-brandBlue1 sm:text-4xl lg:text-5xl;
+}
+
+/* Right-side detail copy */
+.section-detail {
+  @apply max-w-xl text-base leading-relaxed text-brandBlue1 sm:text-lg;
+}
+
+/* === ENTRANCE ANIMATION === */
+
+@keyframes sectionFadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Base hidden state */
+.anim {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 0.6s ease-out,
+    transform 0.6s ease-out;
+}
+
+/* Activated state */
+.anim.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Optional stagger helpers */
+.anim-delay-1 {
+  transition-delay: 0.1s;
+}
+.anim-delay-2 {
+  transition-delay: 0.2s;
+}
+.anim-delay-3 {
+  transition-delay: 0.3s;
+}
+
+/* Base animation class for section blocks */
+.section-anim-left,
+.section-anim-right {
+  opacity: 0;
+  transform: translateY(24px);
+  animation: sectionFadeUp 0.7s ease-out forwards;
+}
+
+/* Staggered timing so it feels polished, not cheesy */
+.section-anim-left {
+  animation-delay: 0.1s;
+}
+
+.section-anim-right {
+  animation-delay: 0.25s;
+}

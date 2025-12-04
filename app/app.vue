@@ -1,7 +1,7 @@
-<template class="font-sans">
+<template>
   <edge-navbar />
   <NuxtPage />
-  <edge-footer class="h-[200px]" />
+  <edge-footer />
 </template>
 
 <style>

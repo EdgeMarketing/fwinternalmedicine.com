@@ -20,80 +20,147 @@ const validationSchema = toTypedSchema(
     }).min(1, { message: 'Message is required' }),
   }),
 )
-
-onMounted(() => {
-  console.log('Hello world.')
-})
 </script>
 
 <template>
   <Head>
-    <Title>Edge Website - An awesome Edge website</Title>
-    <Meta name="description" content="This is an Edge website template" />
-    <Link rel="canonical" href="https://edgemarketingdesign.com/contact" />
+    <Title>Contact Fort Worth Internal Medicine</Title>
+    <Meta
+      name="description"
+      content="At Fort Worth Internal Medicine, we’ve created a family-like environment to make our office feel welcoming while providing exceptional medical care and top-tier concierge-level patient service."
+    />
+    <Link rel="canonical" href="https://fwinternalmedicine.com/contact/" />
   </Head>
 
   <titleSection
-    page="Contact"
-    headline="A really great keyword rich headline"
+    page="Fort Worth Internal Medicine"
+    headline="Our Team"
   />
 
-  <div class="container flex flex-col items-center justify-center w-full max-w-6xl px-6 pt-10 pb-64 mx-auto">
-    <edge-form-fling
-      v-slot="{ submitting }"
-      form-fling-endpoint="https://formfling.com/s/KLm807Hz7BXhB8S08uuF-oFPhf8TuWOSPGEmUATyV-2t5gal"
-      turnstile-site-secret="0x4AAAAAAANxjIQsY8S7Lqur"
-      :validation-schema="validationSchema"
-      success-message="Thank you, we will be in touch soon."
-      error-message="There was an error submitting the form."
-      success-class="text-green-500"
-      error-class="text-red-500"
-    >
-      <Input
-        type="text"
-        placeholder="Name"
-        name="name"
-        class="w-full px-4 py-2 border border-gray-300 focus:outline-none"
-        error-class="text-sm text-red-500"
-      />
-      <!-- Email and Phone -->
-      <div class="max-w-[400px] my-2 grid grid-cols-1 gap-4 md:grid-cols-2">
-        <div>
-          <Input
-            type="email"
-            placeholder="Email"
-            name="email"
-            class="w-full px-4 py-2 border border-gray-300 focus:outline-none"
-            error-class="text-sm text-red-500"
-          />
+  <!-- MAIN CONTENT -->
+  <section class="py-24 bg-white/95">
+    <div class="container px-6 mx-auto">
+      <div class="grid gap-16 lg:grid-cols-3">
+        <!-- FORM COLUMN (2/3) -->
+        <div class="lg:col-span-2">
+          <h2 class="mb-6 text-2xl font-semibold tracking-[0.2em] uppercase text-brandBlue1">
+            Contact Us
+          </h2>
+
+          <form
+            id="contact_form"
+            method="post"
+            class="space-y-6"
+          >
+            <div class="grid gap-6 md:grid-cols-2">
+              <!-- Name (full width on md+) -->
+              <div class="md:col-span-2">
+                <label for="name" class="block mb-2 text-sm font-semibold uppercase tracking-[0.15em] text-brandBlue1">
+                  Name
+                </label>
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  placeholder="Name"
+                  class="w-full px-4 py-3 text-sm border border-gray-300 rounded-none focus:outline-none focus:ring-2 focus:ring-brandBlue1 focus:border-brandBlue1"
+                  required
+                >
+              </div>
+
+              <!-- Phone -->
+              <div>
+                <label for="phone" class="block mb-2 text-sm font-semibold uppercase tracking-[0.15em] text-brandBlue1">
+                  Phone
+                </label>
+                <input
+                  id="phone"
+                  name="phone"
+                  type="text"
+                  placeholder="Phone"
+                  class="w-full px-4 py-3 text-sm border border-gray-300 rounded-none focus:outline-none focus:ring-2 focus:ring-brandBlue1 focus:border-brandBlue1"
+                >
+              </div>
+
+              <!-- Email -->
+              <div>
+                <label for="email" class="block mb-2 text-sm font-semibold uppercase tracking-[0.15em] text-brandBlue1">
+                  Email
+                </label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="Email"
+                  class="w-full px-4 py-3 text-sm border border-gray-300 rounded-none focus:outline-none focus:ring-2 focus:ring-brandBlue1 focus:border-brandBlue1"
+                  required
+                >
+              </div>
+            </div>
+
+            <!-- Message -->
+            <div>
+              <label for="message" class="block mb-2 text-sm font-semibold uppercase tracking-[0.15em] text-brandBlue1">
+                Message
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                rows="7"
+                placeholder="Message..."
+                class="w-full px-4 py-3 text-sm border border-gray-300 rounded-none resize-y focus:outline-none focus:ring-2 focus:ring-brandBlue1 focus:border-brandBlue1"
+                required
+              />
+            </div>
+
+            <!-- Submit + alert -->
+            <div class="flex flex-col items-start gap-4 md:flex-row md:items-center">
+              <button
+                type="submit"
+                class="px-8 py-3 text-sm font-bold tracking-[0.25em] uppercase bg-brandBlue1 text-white hover:bg-brandBlue1/90 transition"
+              >
+                Send Message
+              </button>
+
+              <div id="alert" class="text-sm text-brandSilver1" />
+            </div>
+          </form>
         </div>
-        <div>
-          <Input
-            type="phone"
-            placeholder="Phone"
-            name="phone"
-            class="w-full px-4 py-2 border border-gray-300 focus:outline-none"
-            error-class="text-sm text-red-500"
-          />
-        </div>
+
+        <!-- INFO COLUMN (1/3) -->
+        <aside class="mt-24 space-y-8">
+          <div>
+            <h3 class="mb-4 text-lg font-semibold text-brandBlue1">
+              Contact Info
+            </h3>
+
+            <!-- Helena -->
+            <div class="mb-6">
+              <ul class="space-y-1 text-sm leading-relaxed text-brandBlue1">
+                <li class="flex items-start gap-3">
+                  <span class="mt-0.5">
+                    <i class="fas fa-map-marker-alt" />
+                  </span>
+                  <span>
+                    654 St Louis Ave<br>
+                    Fort Worth, TX 76104
+                  </span>
+                </li>
+                <li class="flex items-center gap-3">
+                  <span>
+                    <i class="fa-solid fa-phone" />
+                  </span>
+                  <a href="tel:+18173869818" class="hover:underline">
+                    (817) 386-9818
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <hr class="border-gray-200">
+        </aside>
       </div>
-      <!-- Message -->
-      <div>
-        <Textarea
-          name="message"
-          placeholder="Message"
-          class="w-full h-32 px-4 py-2 mt-2 border border-gray-300 resize-none focus:outline-none"
-          error-class="text-sm text-red-500"
-        />
-      </div>
-      <div>
-        <button v-if="!submitting" type="submit" class="px-6 py-2 mt-2 transition-colors bg-lblue text-dblue hover:bg-opacity-80">
-          Send Message
-        </button>
-        <button v-else type="button" class="px-6 py-2 mt-2 text-gray-500 transition-colors bg-gray-300 cursor-not-allowed">
-          Sending...
-        </button>
-      </div>
-    </edge-form-fling>
-  </div>
+    </div>
+  </section>
 </template>

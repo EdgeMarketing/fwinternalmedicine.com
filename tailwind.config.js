@@ -9,16 +9,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        dblue: '#30464C', // Dark Blue
-        mblue: '#46616F', // Medium Blue
-        lgray: '#A2A8AE', // Light Gray
-        lblue: '#87B4B7', // Light Blue
-        burntorange: '#B65B33', // Burnt Orange
-        tan: '#BDA86A', // Tan
-        cream: '#D9D0C4', // Cream
+        brandBlue1: '#124671',
+        brandBlue2: '#0077a4',
       },
       fontFamily: {
-        sans: ['Overpass', 'sans-serif'],
+        sans: ['Outfit', 'sans-serif'],
         serif: ['Rokkitt', 'serif'],
       },
     },

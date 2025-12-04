@@ -25,13 +25,14 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="relative flex items-center px-12 py-20 text-white bg-gray-900 md:px-72">
+  <section class="relative flex items-center px-12 py-20 text-white bg-fixed bg-cover md:px-72" style="background-image: url(images/placeholder.jpg);">
+    <div class="absolute inset-0 bg-brandBlue1/90" />
     <div
       class="container relative max-w-6xl m-auto text-left transition-all duration-700 ease-out"
       :class="isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'"
     >
       <h6
-        class="inline-flex capitalize items-center gap-2 mb-4 transition-all duration-700 ease-out super-head"
+        class="inline-flex items-center gap-2 mb-4 capitalize transition-all duration-700 ease-out super-head"
         :class="isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-4'"
       >
         {{ page }}

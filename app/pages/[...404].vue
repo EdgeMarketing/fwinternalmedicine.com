@@ -6,9 +6,12 @@ onMounted(() => {
 
 <template>
   <Head>
-    <Title>Edge Website - An awesome Edge website</Title>
-    <Meta name="description" content="This is an Edge website template" />
-    <Link rel="canonical" href="https://edgemarketingdesign.com/" />
+    <Title>404 | Fort Worth Internal Medicine</Title>
+    <Meta
+      name="description"
+      content="At Fort Worth Internal Medicine, we’ve created a family-like environment to make our office feel welcoming while providing exceptional medical care and top-tier concierge-level patient service."
+    />
+    <Link rel="canonical" href="https://fwinternalmedicine.com/404/" />
   </Head>
 
   <titleSection
@@ -16,17 +19,17 @@ onMounted(() => {
     headline="404 - Page Not Found"
   />
   <div class="min-h-[calc(100vh_-_586px)] w-full items-center justify-center flex flex-col">
-    <h1 class="text-6xl font-bold mb-4">
+    <h1 class="mb-4 text-6xl font-bold">
       404
     </h1>
-    <p class="text-xl mb-2">
+    <p class="mb-2 text-xl">
       Page Not Found
     </p>
-    <p class="text-md text-gray-400 mb-6">
-      Looks like this page took an early return and never came back.<br />
+    <p class="mb-6 text-gray-400 text-md">
+      Looks like this page took an early return and never came back.<br>
       Maybe it hit a <code class="bg-gray-800 px-1 py-0.5 rounded">null pointer</code>... or just rage-quit the DOM.
     </p>
-    <a href="/" class="px-6 py-2 mt-2 transition-colors bg-lblue text-dblue hover:bg-opacity-80">
+    <a href="/" class="px-6 py-2 mt-2 transition-colors bg-brandBlue2 text-brandBlue1 hover:bg-opacity-80">
       Go Home & Debug Later
     </a>
   </div>
