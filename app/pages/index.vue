@@ -174,13 +174,18 @@
         <!-- RIGHT SIDE IMAGE -->
         <div class="relative hero-image-wrapper">
           <div
-            class="hero-image overflow-hidden rounded-3xl rounded-tl-[100px] bg-slate-200 shadow-xl"
+            class="hero-image overflow-hidden rounded-3xl rounded-tl-[100px] bg-slate-200 shadow-xl relative w-full h-full"
           >
-            <img
-              src="/images/placeholder.jpg"
-              alt="Internal medicine care"
-              class="object-cover w-full h-full"
-            >
+            <div class="relative w-full h-0 pb-[56.25%]">
+              <iframe
+                src="https://customer-wjh80wxi1grqfvvb.cloudflarestream.com/48df4ce20045b93ef7c1a8bd55c8ce0a/iframe?muted=true&preload=true&loop=true&autoplay=true&poster=https%3A%2F%2Fcustomer-wjh80wxi1grqfvvb.cloudflarestream.com%2F48df4ce20045b93ef7c1a8bd55c8ce0a%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+                loading="lazy"
+                class="absolute inset-0 w-full h-full"
+                style="border: none;"
+                allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+                allowfullscreen="true"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -218,7 +223,7 @@
         <div class="js-anim anim anim-delay-1">
           <div class="overflow-hidden shadow-xl rounded-3xl rounded-tl-[100px] bg-slate-200">
             <img
-              src="/images/placeholder.jpg"
+              src="/images/reception.jpg"
               alt="Fort Worth Internal Medicine office"
               class="object-cover w-full h-full"
             >
@@ -263,7 +268,7 @@
         <div class="js-anim anim anim-delay-2">
           <div class="overflow-hidden shadow-xl rounded-3xl bg-slate-200">
             <img
-              src="/images/placeholder.jpg"
+              src="/images/mark-home.jpg"
               alt="Fort Worth Internal Medicine team"
               class="object-cover w-full h-full"
             >
