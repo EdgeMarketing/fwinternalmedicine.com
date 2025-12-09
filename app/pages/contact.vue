@@ -34,7 +34,7 @@ const validationSchema = toTypedSchema(
 
   <titleSection
     page="Fort Worth Internal Medicine"
-    headline="Our Team"
+    headline="Contact Us"
   />
 
   <!-- MAIN CONTENT -->
@@ -43,10 +43,9 @@ const validationSchema = toTypedSchema(
       <div class="grid gap-16 lg:grid-cols-3">
         <!-- FORM COLUMN (2/3) -->
         <div class="lg:col-span-2">
-          <h2 class="mb-6 text-2xl font-semibold tracking-[0.2em] uppercase text-brandBlue1">
-            Contact Us
-          </h2>
-
+          <p class="pb-12">
+            Fort Worth Internal Medicine provides patient-centered primary care and internal medicine services for adults across Fort Worth and the surrounding communities. Whether you need to schedule an appointment, request follow-up care, ask a question about your medical treatment plan, or learn more about becoming a new patient, our team is here to help. We offer longer appointment times, comprehensive chronic-care support, and a warm, traditional office environment designed around your comfort. Contact our Fort Worth medical office today to speak directly with our staff and get the personalized care and attention you deserve.
+          </p>
           <form
             id="contact_form"
             method="post"
@@ -128,7 +127,7 @@ const validationSchema = toTypedSchema(
         </div>
 
         <!-- INFO COLUMN (1/3) -->
-        <aside class="mt-24 space-y-8">
+        <aside class="space-y-8">
           <div>
             <h3 class="mb-4 text-lg font-semibold text-brandBlue1">
               Contact Info

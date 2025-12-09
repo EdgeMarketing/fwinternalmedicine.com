@@ -23,7 +23,7 @@
         <h2 class="max-w-4xl m-auto mb-6 main-head">
           Medical professionals who care about you and the patient experience
         </h2>
-        <p class="mx-auto section-detail">
+        <p class="!max-w-3xl mx-auto section-detail ">
           Our attentive team of medical professionals and office staff are always happy to welcome you to our practice and assist with your health concerns.
         </p>
       </div>

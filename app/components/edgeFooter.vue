@@ -40,7 +40,7 @@ onMounted(() => {
           </h3>
 
           <ul class="space-y-1 text-sm leading-relaxed">
-            <li class="flex items-start gap-3">
+            <li class="flex items-start gap-4">
               <span class="mt-0.5">
                 <i class="fas fa-map-marker-alt" />
               </span>
@@ -53,8 +53,7 @@ onMounted(() => {
               <span>
                 <i class="fa-solid fa-phone" />
               </span>
-              <a href="tel:+18173869818" class="hover:underline">
-                (817) 386-9818
+              <a href="tel:+18173869818" class="hover:underline">(817) 386-9818
               </a>
             </li>
           </ul>
@@ -63,7 +62,7 @@ onMounted(() => {
         <!-- Center logo + blurb -->
         <div class="flex flex-col items-start text-left md:items-center md:text-center">
           <div class="flex items-center gap-4 mb-4">
-            <img src="/images/logo-white.png" alt="Fort Worth Internal Medicine" class="w-auto h-24">
+            <a href="/"><img src="/images/logo-white.png" alt="Fort Worth Internal Medicine" class="w-auto h-24"></a>
           </div>
 
           <p class="max-w-lg text-sm leading-relaxed text-white">

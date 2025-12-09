@@ -18,7 +18,7 @@
       <div class="grid items-center gap-10 lg:grid-cols-2">
         <!-- LEFT: IMAGE -->
         <div class="js-anim anim anim-delay-1">
-          <div class="overflow-hidden shadow-xl rounded-3xl rounded-tl-[100px] bg-slate-200">
+          <div class="overflow-hidden shadow-xl rounded-3xl md:rounded-tl-[100px] bg-slate-200">
             <img
               src="/images/mark-home.jpg"
               alt="Fort Worth Internal Medicine office"
@@ -64,7 +64,7 @@
 
         <!-- IMAGE -->
         <div class="js-anim anim anim-delay-2">
-          <div class="overflow-hidden shadow-xl rounded-3xl bg-slate-200">
+          <div class="overflow-hidden shadow-xl rounded-3xl md:rounded-tl-[100px]">
             <img src="/images/time-spent.jpg" alt="Patient experience" class="object-cover w-full h-full">
           </div>
         </div>
@@ -77,7 +77,7 @@
       <div class="grid items-center gap-10 lg:grid-cols-2">
         <!-- IMAGE -->
         <div class="js-anim anim anim-delay-1">
-          <div class="overflow-hidden shadow-xl rounded-3xl bg-slate-200">
+          <div class="overflow-hidden shadow-xl rounded-3xl md:rounded-tl-[100px] ">
             <img src="/images/fortworthhospital.jpg" alt="Fort Worth Healthcare Partners" class="object-cover w-full h-full">
           </div>
         </div>

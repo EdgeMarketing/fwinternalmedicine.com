@@ -22,7 +22,7 @@
         class="grid items-center gap-6 pb-8 md:gap-8 md:pb-12 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]"
       >
         <h1
-          class="hero-heading text-3xl font-light !leading-tight sm:text-4xl lg:text-5xl 2xl:text-6xl"
+          class="hero-heading text-4xl max-w-2xl font-light !leading-tight sm:text-4xl lg:text-5xl 2xl:text-6xl"
         >
           Superior
           <span class="font-bold">
@@ -31,7 +31,7 @@
           You Deserve and Expect
         </h1>
 
-        <div class="max-w-sm text-sm hero-subcopy text-white/90 sm:text-base">
+        <div class="max-w-sm hero-subcopy text-white/90">
           When you visit your doctor’s office, you want personalized,
           compassionate, evidenced-based care in a friendly, traditional family
           office setting.
@@ -44,7 +44,7 @@
       >
         <!-- LEFT SIDE -->
         <div class="space-y-8 hero-left md:space-y-10">
-          <ul class="space-y-3 text-sm hero-bullets sm:text-base">
+          <ul class="space-y-3 hero-bullets">
             <li class="flex items-center gap-3">
               <span
                 class="flex items-center justify-center mt-1 rounded-full h-7 w-7 bg-brandBlue2"
@@ -174,7 +174,7 @@
         <!-- RIGHT SIDE IMAGE -->
         <div class="relative hero-image-wrapper">
           <div
-            class="hero-image overflow-hidden rounded-3xl rounded-tl-[100px] bg-slate-200 shadow-xl relative w-full h-full"
+            class="hero-image overflow-hidden rounded-3xl md:rounded-tl-[100px] bg-slate-200 shadow-xl relative w-full h-full"
           >
             <div class="relative w-full h-0 pb-[56.25%]">
               <iframe
@@ -221,7 +221,7 @@
       <div class="grid items-center gap-10 lg:grid-cols-2">
         <!-- LEFT: IMAGE -->
         <div class="js-anim anim anim-delay-1">
-          <div class="overflow-hidden shadow-xl rounded-3xl rounded-tl-[100px] bg-slate-200">
+          <div class="overflow-hidden shadow-xl rounded-3xl md:rounded-tl-[100px] bg-slate-200">
             <img
               src="/images/reception.jpg"
               alt="Fort Worth Internal Medicine office"
@@ -266,7 +266,7 @@
 
         <!-- IMAGE SIDE -->
         <div class="js-anim anim anim-delay-2">
-          <div class="overflow-hidden shadow-xl rounded-3xl bg-slate-200">
+          <div class="overflow-hidden shadow-xl rounded-3xl bg-slate-200md:rounded-tl-[100px]">
             <img
               src="/images/mark-home.jpg"
               alt="Fort Worth Internal Medicine team"

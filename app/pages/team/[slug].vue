@@ -47,7 +47,7 @@ const staff = computed(() => {
               <img
                 :src="staff.image"
                 :alt="staff.name"
-                class="object-cover w-full h-96"
+                class="object-cover w-full h-96 rounded-3xl"
               >
 
               <!-- Corner accent -->
@@ -60,7 +60,7 @@ const staff = computed(() => {
             <!-- Overlapping info card (same format as card) -->
             <div class="relative pb-6">
               <div
-                class="absolute left-0 flex items-center justify-between px-6 py-4 bg-white shadow-md right-12 -top-8"
+                class="absolute left-0 flex items-center justify-between px-6 py-4 bg-white shadow-md rounded-3xl right-12 -top-8"
               >
                 <div>
                   <p class="text-xl font-semibold ">
