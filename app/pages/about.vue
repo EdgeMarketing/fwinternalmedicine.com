@@ -20,7 +20,7 @@
         <div class="js-anim anim anim-delay-1">
           <div class="overflow-hidden shadow-xl rounded-3xl md:rounded-tl-[100px] bg-slate-200">
             <img
-              src="/images/mark-home.jpg"
+              src="/images/building.jpg"
               alt="Fort Worth Internal Medicine office"
               class="object-cover w-full h-full"
             >

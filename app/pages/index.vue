@@ -73,7 +73,7 @@
 
           <!-- CTA with extra circle -->
           <div class="pb-2 hero-cta sm:pb-4">
-            <NuxtLink to="/contact" class="inline-flex items-center">
+            <NuxtLink to="/about" class="inline-flex items-center">
               <span
                 class="relative inline-flex items-center px-8 py-3 text-sm font-semibold tracking-wide rounded-full bg-brandBlue2 sm:text-base"
               >

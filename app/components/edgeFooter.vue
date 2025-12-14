@@ -56,6 +56,14 @@ onMounted(() => {
               <a href="tel:+18173869818" class="hover:underline">(817) 386-9818
               </a>
             </li>
+            <li class="flex items-center gap-3">
+              <span>
+                <i class="fa-solid fa-envelope" />
+              </span>
+              <a href="mailto:info@fwinternalmedicine.com" class="hover:underline">
+                info@fwinternalmedicine.com
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -78,12 +86,12 @@ onMounted(() => {
 
           <ul class="space-y-3 text-sm">
             <li>
-              <NuxtLink to="#" target="_blank" class="hover:underline">
+              <NuxtLink to="https://pxpportal.nextgen.com/txhealthcare-24928/portal/#/user/login" target="_blank" class="hover:underline">
                 Patient Portal
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="#" target="_blank" class="hover:underline">
+              <NuxtLink to="/contact" target="_blank" class="hover:underline">
                 Contact Us
               </NuxtLink>
             </li>

@@ -153,6 +153,14 @@ const validationSchema = toTypedSchema(
                     (817) 386-9818
                   </a>
                 </li>
+                <li class="flex items-center gap-3">
+                  <span>
+                    <i class="fa-solid fa-envelope" />
+                  </span>
+                  <a href="mailto:info@fwinternalmedicine.com" class="hover:underline">
+                    info@fwinternalmedicine.com
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
