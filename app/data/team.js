@@ -76,7 +76,7 @@ export default {
     title: 'Registered Nurse (Part-Time)',
     slug: 'bailey',
     order: '7',
-    image: '/images/team/placeholder.jpg',
+    image: '/images/team/mary.jpg',
     bio: `Mary retired from full-time nursing after a career as an RN in the Fort Worth area, but she still works part-time with FWIM on various tasks, including prior authorizations and value-based care programs, and remains available in the office.
 `,
   },
@@ -109,7 +109,7 @@ export default {
     title: 'Receptionist',
     slug: 'henson',
     order: '10',
-    image: '/images/team/placeholder.jpg',
+    image: '/images/team/karla.jpg',
     bio: `Karla Henson has worked in healthcare offices in Fort Worth for decades, including the Dermatology office of Dr. Miller before he retired. Since then, she has been working part-time with FWIM, primarily on front-office tasks such as scheduling.
 `,
   },
