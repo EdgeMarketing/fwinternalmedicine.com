@@ -147,7 +147,7 @@
                 <div>
                   <p class="font-semibold">
                     <a
-                      href="https://www.google.com/maps/dir/?api=1&destination=654+St+Louis+Ave+Fort+Worth+TX+76104"
+                      href="https://www.google.com/maps/dir/?api=1&destination=1000+9th+Ave+Fort+Worth+TX+76104"
                       target="_blank"
                       rel="noopener"
                       class="text-white hover:opacity-80"
@@ -157,7 +157,7 @@
                   </p>
                   <p>
                     <a
-                      href="https://www.google.com/maps/dir/?api=1&destination=654+St+Louis+Ave+Fort+Worth+TX+76104"
+                      href="https://www.google.com/maps/dir/?api=1&destination=1000+9th+Ave+Fort+Worth+TX+76104"
                       target="_blank"
                       rel="noopener"
                       class="text-white hover:opacity-80"
