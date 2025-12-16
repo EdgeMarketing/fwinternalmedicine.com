@@ -130,7 +130,7 @@
                   </p>
                   <p>
                     <a href="tel:18173869818" class="text-white hover:opacity-80">
-                      (817) 386-9818
+                      (817) 332-3039
                     </a>
                   </p>
                 </div>
@@ -152,7 +152,7 @@
                       rel="noopener"
                       class="text-white hover:opacity-80"
                     >
-                      654 St Louis Ave
+                      1000 9th Ave
                     </a>
                   </p>
                   <p>

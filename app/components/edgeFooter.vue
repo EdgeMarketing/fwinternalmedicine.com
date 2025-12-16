@@ -45,7 +45,7 @@ onMounted(() => {
                 <i class="fas fa-map-marker-alt" />
               </span>
               <span>
-                654 St Louis Ave<br>
+                1000 9th Ave<br>
                 Fort Worth, TX 76104
               </span>
             </li>
@@ -53,8 +53,14 @@ onMounted(() => {
               <span>
                 <i class="fa-solid fa-phone" />
               </span>
-              <a href="tel:+18173869818" class="hover:underline">(817) 386-9818
+              <a href="tel:+18173869818" class="hover:underline">(817) 332-3039
               </a>
+            </li>
+            <li class="flex items-center gap-3">
+              <span>
+                <i class="fa-solid fa-fax" />
+              </span>
+              (817) 332-6902
             </li>
             <li class="flex items-center gap-3">
               <span>
