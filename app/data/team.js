@@ -41,7 +41,7 @@ export default {
     title: 'Nurse Practitioner',
     slug: 'savage',
     order: '4',
-    image: '/images/team/placeholder.jpg',
+    image: '/images/team/jenna.jpg',
     bio: `Jenna Savage is from Fort Worth and has been practicing as a nurse practitioner in various settings throughout Fort Worth since finishing her training. She works full time at another office, but since joining FWIM, she has been providing our patients with urgent care visits for acute needs, including weekend and Saturday hours.
 `,
   },
