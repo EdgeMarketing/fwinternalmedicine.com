@@ -147,7 +147,7 @@
                 <div>
                   <p class="pt-1 font-semibold leading-none">
                     <a
-                      href="https://www.google.com/maps/dir/?api=1&destination=1000+9th+Ave+Fort+Worth+TX+76104"
+                      href="https://maps.app.goo.gl/H8QdA3u8ssRHgFjc6"
                       target="_blank"
                       rel="noopener"
                       class="text-white hover:opacity-80"

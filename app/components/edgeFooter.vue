@@ -44,10 +44,10 @@ onMounted(() => {
               <span class="mt-0.5">
                 <i class="fas fa-map-marker-alt" />
               </span>
-              <span>
+              <a href="https://maps.app.goo.gl/H8QdA3u8ssRHgFjc6" target="_blank" rel="noopener">
                 1000 9th Ave<br>
                 Fort Worth, TX 76104
-              </span>
+              </a>
             </li>
             <li class="flex items-center gap-3">
               <span>
