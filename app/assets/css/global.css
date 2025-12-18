@@ -93,3 +93,58 @@ p {
 .section-anim-right {
   animation-delay: 0.25s;
 }
+
+/* =========================
+   Privacy Policy Page Only
+   ========================= */
+
+.privacy-content {
+  --pp-border: #e5e7eb; /* slate-200 */
+}
+
+/* Headings get breathing room */
+.privacy-content h2 {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--pp-border);
+  font-weight: 600;
+}
+
+.privacy-content h3 {
+  margin-top: 2rem;
+  font-weight: 600;
+}
+
+/* Paragraph spacing */
+.privacy-content p {
+  margin-top: 1.25rem;
+  line-height: 1.75;
+}
+
+/* First paragraph tighter */
+.privacy-content p:first-of-type {
+  margin-top: 0;
+}
+
+/* Lists are easier to scan */
+.privacy-content ul {
+  margin-top: 1rem;
+  padding-left: 1.25rem;
+}
+
+.privacy-content li {
+  margin-top: 0.5rem;
+}
+
+/* Visually separate important notes */
+.privacy-content strong {
+  color: #0f172a; /* slate-900 */
+}
+
+/* Contact block at the bottom */
+.privacy-content p:last-of-type {
+  padding: 1.5rem;
+  margin-top: 3rem;
+  background: #f8fafc; /* slate-50 */
+  border-left: 4px solid #1e3a8a; /* brandBlue1-ish */
+}

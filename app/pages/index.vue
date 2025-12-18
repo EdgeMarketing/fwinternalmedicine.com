@@ -145,7 +145,7 @@
                 </span>
 
                 <div>
-                  <p class="font-semibold">
+                  <p class="pt-1 font-semibold leading-none">
                     <a
                       href="https://www.google.com/maps/dir/?api=1&destination=1000+9th+Ave+Fort+Worth+TX+76104"
                       target="_blank"
@@ -153,15 +153,7 @@
                       class="text-white hover:opacity-80"
                     >
                       1000 9th Ave
-                    </a>
-                  </p>
-                  <p>
-                    <a
-                      href="https://www.google.com/maps/dir/?api=1&destination=1000+9th+Ave+Fort+Worth+TX+76104"
-                      target="_blank"
-                      rel="noopener"
-                      class="text-white hover:opacity-80"
-                    >
+                      <br>
                       Fort Worth, TX 76104
                     </a>
                   </p>
