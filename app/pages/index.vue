@@ -111,7 +111,7 @@
             </h2>
 
             <p class="mb-6 text-white/90">
-              We’ll get you scheduled quickly and make sure you have the time
+              We’ll answer your call personally, get you scheduled quickly, and make sure you have the time
               you need to discuss every concern.
             </p>
 
