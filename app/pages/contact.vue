@@ -141,7 +141,7 @@ const validationSchema = toTypedSchema(
                     <i class="fas fa-map-marker-alt" />
                   </span>
                   <span>
-                    1000 9th Ave<br>
+                    1000 9th Ave Ste C<br>
                     Fort Worth, TX 76104
                   </span>
                 </li>

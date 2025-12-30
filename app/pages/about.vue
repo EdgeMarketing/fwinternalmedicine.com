@@ -65,7 +65,7 @@
         <!-- IMAGE -->
         <div class="js-anim anim anim-delay-2">
           <div class="overflow-hidden shadow-xl rounded-3xl md:rounded-tl-[100px]">
-            <img src="/images/time-spent.jpg" alt="Patient experience" class="object-cover w-full h-full">
+            <img src="/images/patient-exp.jpg" alt="Patient experience" class="object-cover w-full h-full">
           </div>
         </div>
       </div>

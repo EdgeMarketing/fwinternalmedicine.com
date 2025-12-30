@@ -43,7 +43,7 @@
         <div class="js-anim anim anim-delay-2">
           <div class="overflow-hidden shadow-xl rounded-3xl md:rounded-tl-[100px] bg-slate-200">
             <img
-              src="/images/placeholder.jpg"
+              src="/images/services.jpg"
               alt="Fort Worth Internal Medicine services"
               class="object-cover w-full h-full"
             >
@@ -61,7 +61,7 @@
         <div class="js-anim anim anim-delay-1">
           <div class="overflow-hidden shadow-xl rounded-3xl md:rounded-tl-[100px] bg-slate-200">
             <img
-              src="/images/placeholder.jpg"
+              src="/images/practical-care.jpg"
               alt="Patient-centered care"
               class="object-cover w-full h-full"
             >
@@ -305,7 +305,7 @@
         <div class="js-anim anim anim-delay-2">
           <div class="overflow-hidden shadow-xl rounded-3xl md:rounded-tl-[100px] bg-slate-200">
             <img
-              src="/images/placeholder.jpg"
+              src="/images/testing-onsite.jpg"
               alt="In-office testing"
               class="object-cover w-full h-full"
             >

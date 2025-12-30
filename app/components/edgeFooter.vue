@@ -45,7 +45,7 @@ onMounted(() => {
                 <i class="fas fa-map-marker-alt" />
               </span>
               <a href="https://maps.app.goo.gl/H8QdA3u8ssRHgFjc6" target="_blank" rel="noopener">
-                1000 9th Ave<br>
+                1000 9th Ave Ste C<br>
                 Fort Worth, TX 76104
               </a>
             </li>

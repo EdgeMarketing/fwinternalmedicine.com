@@ -148,7 +148,7 @@
         </p>
         <p>
           <strong>Fort Worth Internal Medicine</strong><br>
-          1000 9th Ave, Fort Worth, TX 76104<br>
+          1000 9th Ave Ste C, Fort Worth, TX 76104<br>
           Phone: <a href="tel:+18173869818">(817) 332-3039</a><br>
           Email: <a href="mailto:info@fwinternalmedicine.com">info@fwinternalmedicine.com</a>
         </p>
