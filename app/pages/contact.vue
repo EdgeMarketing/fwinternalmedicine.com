@@ -57,7 +57,7 @@ const validationSchema = toTypedSchema(
 
           <edge-form-fling
             v-slot="{ submitting }"
-            form-fling-endpoint="https://formfling.com/s/KLm807Hz7BXhB8S08uuF-3ABqw9JWPxgV2DLI0a57-r34xra"
+            form-fling-endpoint="https://formfling.com/s/KLm807Hz7BXhB8S08uuF-97LV8JaWIpvVRI87JoOP-pyqxxi"
             turnstile-site-secret="0x4AAAAAAAkuN8yTza7gftGX"
             :validation-schema="validationSchema"
             class="space-y-6"
@@ -67,19 +67,19 @@ const validationSchema = toTypedSchema(
             error-class="text-red-500"
           >
             <div class="grid gap-6 md:grid-cols-2">
-              <!-- Name (full width on md+) -->
+              <!-- Name -->
               <div class="md:col-span-2">
                 <label for="name" class="block mb-2 text-sm font-semibold uppercase tracking-[0.15em] text-brandBlue1">
                   Name
                 </label>
-                <input
+                <Input
                   id="name"
                   name="name"
                   type="text"
                   placeholder="Name"
                   class="w-full px-4 py-3 text-sm border border-gray-300 rounded-none focus:outline-none focus:ring-2 focus:ring-brandBlue1 focus:border-brandBlue1"
-                  required
-                >
+                  error-class="text-red-500"
+                />
               </div>
 
               <!-- Phone -->
@@ -87,13 +87,14 @@ const validationSchema = toTypedSchema(
                 <label for="phone" class="block mb-2 text-sm font-semibold uppercase tracking-[0.15em] text-brandBlue1">
                   Phone
                 </label>
-                <input
+                <Input
                   id="phone"
                   name="phone"
-                  type="text"
+                  type="phone"
                   placeholder="Phone"
                   class="w-full px-4 py-3 text-sm border border-gray-300 rounded-none focus:outline-none focus:ring-2 focus:ring-brandBlue1 focus:border-brandBlue1"
-                >
+                  error-class="text-red-500"
+                />
               </div>
 
               <!-- Email -->
@@ -101,14 +102,14 @@ const validationSchema = toTypedSchema(
                 <label for="email" class="block mb-2 text-sm font-semibold uppercase tracking-[0.15em] text-brandBlue1">
                   Email
                 </label>
-                <input
+                <Input
                   id="email"
                   name="email"
                   type="email"
                   placeholder="Email"
                   class="w-full px-4 py-3 text-sm border border-gray-300 rounded-none focus:outline-none focus:ring-2 focus:ring-brandBlue1 focus:border-brandBlue1"
-                  required
-                >
+                  error-class="text-red-500"
+                />
               </div>
             </div>
 
@@ -117,26 +118,33 @@ const validationSchema = toTypedSchema(
               <label for="message" class="block mb-2 text-sm font-semibold uppercase tracking-[0.15em] text-brandBlue1">
                 Message
               </label>
-              <textarea
+              <Textarea
                 id="message"
                 name="message"
                 rows="7"
                 placeholder="Message..."
                 class="w-full px-4 py-3 text-sm border border-gray-300 rounded-none resize-y focus:outline-none focus:ring-2 focus:ring-brandBlue1 focus:border-brandBlue1"
-                required
+                error-class="text-red-500"
               />
             </div>
 
-            <!-- Submit + alert -->
+            <!-- Submit -->
             <div class="flex flex-col items-start gap-4 md:flex-row md:items-center">
               <button
+                v-if="!submitting"
                 type="submit"
                 class="px-8 py-3 text-sm font-bold tracking-[0.25em] uppercase bg-brandBlue1 text-white hover:bg-brandBlue1/90 transition"
               >
                 Send Message
               </button>
 
-              <div id="alert" class="text-sm text-brandSilver1" />
+              <button
+                v-else
+                type="button"
+                class="px-8 py-3 text-sm font-bold tracking-[0.25em] uppercase bg-brandBlue1 text-white opacity-70 cursor-not-allowed"
+              >
+                Sending...
+              </button>
             </div>
           </edge-form-fling>
         </div>
