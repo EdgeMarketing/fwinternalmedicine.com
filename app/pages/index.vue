@@ -6,6 +6,17 @@
       content="At Fort Worth Internal Medicine, we’ve created a family-like environment to make our office feel welcoming while providing exceptional medical care and top-tier concierge-level patient service."
     />
     <Link rel="canonical" href="https://fwinternalmedicine.com/" />
+    <Meta property="og:title" content="Fort Worth Internal Medicine" />
+    <Meta
+      property="og:description"
+      content="At Fort Worth Internal Medicine, we’ve created a family-like environment to make our office feel welcoming while providing exceptional medical care and top-tier concierge-level patient service."
+    />
+    <Meta property="og:url" content="https://fwinternalmedicine.com/" />
+    <Meta property="og:type" content="website" />
+    <Meta
+      property="og:image"
+      content="https://fwinternalmedicine.com/images/hero.jpg"
+    />
   </Head>
 
   <section

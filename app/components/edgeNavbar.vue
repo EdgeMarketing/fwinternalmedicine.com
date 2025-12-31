@@ -57,7 +57,7 @@ onUnmounted(() => window.removeEventListener('resize', handleResize))
       <div class="container mx-auto flex items-center justify-between h-[128px]">
         <!-- Logo -->
         <NuxtLink to="/" class="text-xl font-bold">
-          <img :src="logoSrc" alt="Logo" class="w-full h-auto">
+          <img :src="logoSrc" alt="Fort Worth Internal Medicine" class="w-full h-auto">
         </NuxtLink>
 
         <!-- RIGHT SIDE (desktop links + portal button) -->

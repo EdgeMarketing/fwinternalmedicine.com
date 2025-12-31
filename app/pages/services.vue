@@ -6,6 +6,14 @@
       content="Explore services at Fort Worth Internal Medicine, including wellness exams, sick visits, telemedicine, in-office blood draws, testing, chronic care management, and more."
     />
     <Link rel="canonical" href="https://fwinternalmedicine.com/services/" />
+    <Meta property="og:title" content="Services | Fort Worth Internal Medicine" />
+    <Meta
+      property="og:description"
+      content="Explore services at Fort Worth Internal Medicine, including wellness exams, sick visits, telemedicine, in-office blood draws, testing, chronic care management, and more."
+    />
+    <Meta property="og:url" content="https://fwinternalmedicine.com/services/" />
+    <Meta property="og:type" content="website" />
+    <Meta property="og:image" content="https://fwinternalmedicine.com/images/services.jpg" />
   </Head>
 
   <titleSection

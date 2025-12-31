@@ -6,6 +6,14 @@
       content="We’re hiring a part-time Nurse Practitioner or Physician Assistant to provide internal medicine care for adults, including older adults with complex medical needs."
     />
     <Link rel="canonical" href="https://fwinternalmedicine.com/careers/" />
+    <Meta property="og:title" content="Careers | Fort Worth Internal Medicine" />
+    <Meta
+      property="og:description"
+      content="We’re hiring a part-time Nurse Practitioner or Physician Assistant to provide internal medicine care for adults, including older adults with complex medical needs."
+    />
+    <Meta property="og:url" content="https://fwinternalmedicine.com/careers/" />
+    <Meta property="og:type" content="website" />
+    <Meta property="og:image" content="https://fwinternalmedicine.com/images/building.jpg" />
   </Head>
 
   <titleSection page="Fort Worth Internal Medicine" headline="Careers" />

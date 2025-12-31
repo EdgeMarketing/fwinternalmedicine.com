@@ -28,7 +28,24 @@ const staff = computed(() => {
       />
       <Link
         rel="canonical"
-        :href="`https://geconstruction.com/team/${staff.slug}/`"
+        :href="`https://fwinternalmedicine.com/team/${staff.slug}/`"
+      />
+      <Meta
+        property="og:title"
+        :content="`${staff.name} | Fort Worth Internal Medicine`"
+      />
+      <Meta
+        property="og:description"
+        :content="`${staff.name}, ${staff.title}, part of the Golden Eagle team.`"
+      />
+      <Meta
+        property="og:url"
+        :content="`https://fwinternalmedicine.com/team/${staff.slug}/`"
+      />
+      <Meta property="og:type" content="website" />
+      <Meta
+        property="og:image"
+        :content="`https://fwinternalmedicine.com${staff.image}`"
       />
     </Head>
 

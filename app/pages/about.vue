@@ -3,9 +3,17 @@
     <Title>About Fort Worth Internal Medicine</Title>
     <Meta
       name="description"
-      content="At Fort Worth Internal Medicine, we’ve created a family-like environment to make our office feel welcoming while providing exceptional medical care and top-tier concierge-level patient service."
+      content="Fort Worth Internal Medicine was founded in the 1980s by Dr. Craig Dearden and has been led by Dr. Mark Ziats since 2024. Dr. Ziats took over the practice because he is inspired to help adult patients in the Fort Worth area with chronic medical issues and preventive care."
     />
     <Link rel="canonical" href="https://fwinternalmedicine.com/about/" />
+    <Meta property="og:title" content="About Fort Worth Internal Medicine" />
+    <Meta
+      property="og:description"
+      content="Fort Worth Internal Medicine was founded in the 1980s by Dr. Craig Dearden and has been led by Dr. Mark Ziats since 2024. Dr. Ziats took over the practice because he is inspired to help adult patients in the Fort Worth area with chronic medical issues and preventive care."
+    />
+    <Meta property="og:url" content="https://fwinternalmedicine.com/about/" />
+    <Meta property="og:type" content="website" />
+    <Meta property="og:image" content="https://fwinternalmedicine.com/images/building.jpg" />
   </Head>
 
   <titleSection

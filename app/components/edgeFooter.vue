@@ -1,33 +1,3 @@
-<script setup>
-import { onMounted } from 'vue'
-
-onMounted(() => {
-  ;(function (d, t, g, k) {
-    const ph = d.createElement(t)
-    const s = d.getElementsByTagName(t)[0]
-    let token = new URLSearchParams(window.location.search).get(k)
-
-    if (token) {
-      localStorage.setItem(k, token)
-    }
-
-    token = localStorage.getItem(k)
-
-    ph.type = 'text/javascript'
-    ph.async = true
-    ph.defer = true
-    ph.charset = 'UTF-8'
-    ph.src = `${g}&v=${new Date().getTime()}`
-
-    if (token) {
-      ph.src += `&${k}=${token}`
-    }
-
-    s.parentNode.insertBefore(ph, s)
-  })(document, 'script', '//huddle.edgemarketingdesign.com/?p=1680&ph_apikey=71b7de96374ac9687ff240b86bfea34c', 'ph_access_token')
-})
-</script>
-
 <template>
   <footer class="relative pt-16 pb-10 text-white bg-brandBlue1">
     <div class="container px-6 mx-auto">
