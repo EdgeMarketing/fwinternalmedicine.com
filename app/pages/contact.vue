@@ -54,10 +54,17 @@ const validationSchema = toTypedSchema(
           <p class="pb-12">
             Fort Worth Internal Medicine provides patient-centered primary care and internal medicine services for adults across Fort Worth and the surrounding communities. Whether you need to schedule an appointment, request follow-up care, ask a question about your medical treatment plan, or learn more about becoming a new patient, our team is here to help. We offer longer appointment times, comprehensive chronic-care support, and a warm, traditional office environment designed around your comfort. Contact our Fort Worth medical office today to speak directly with our staff and get the personalized care and attention you deserve.
           </p>
-          <form
-            id="contact_form"
-            method="post"
+
+          <edge-form-fling
+            v-slot="{ submitting }"
+            form-fling-endpoint="https://formfling.com/s/KLm807Hz7BXhB8S08uuF-3ABqw9JWPxgV2DLI0a57-r34xra"
+            turnstile-site-secret="0x4AAAAAAAkuN8yTza7gftGX"
+            :validation-schema="validationSchema"
             class="space-y-6"
+            success-message="Thank you, we will be in touch soon."
+            error-message="There was an error submitting the form."
+            success-class="text-green-500"
+            error-class="text-red-500"
           >
             <div class="grid gap-6 md:grid-cols-2">
               <!-- Name (full width on md+) -->
@@ -131,7 +138,7 @@ const validationSchema = toTypedSchema(
 
               <div id="alert" class="text-sm text-brandSilver1" />
             </div>
-          </form>
+          </edge-form-fling>
         </div>
 
         <!-- INFO COLUMN (1/3) -->
