@@ -1,3 +1,10 @@
+<script setup>
+throw createError({
+  statusCode: 404,
+  statusMessage: 'Page not found',
+})
+</script>
+
 <template>
   <Head>
     <Title>404 | Fort Worth Internal Medicine</Title>
