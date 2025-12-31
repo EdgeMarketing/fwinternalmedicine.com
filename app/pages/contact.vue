@@ -57,7 +57,7 @@ const validationSchema = toTypedSchema(
 
           <edge-form-fling
             v-slot="{ submitting }"
-            form-fling-endpoint="https://formfling.com/s/KLm807Hz7BXhB8S08uuF-97LV8JaWIpvVRI87JoOP-pyqxxi"
+            form-fling-endpoint="https://formfling.com/s/KLm807Hz7BXhB8S08uuF-3ABqw9JWPxgV2DLI0a57-r34xra"
             turnstile-site-secret="0x4AAAAAAAkuN8yTza7gftGX"
             :validation-schema="validationSchema"
             class="space-y-6"
