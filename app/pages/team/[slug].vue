@@ -9,7 +9,10 @@ const router = useRouter()
 const staff = computed(() => {
   const entry = staffDirectory[route.params.slug]
   if (!entry) {
-    router.push('/404')
+    throw createError({
+      statusCode: 404,
+      statusMessage: 'Page not found',
+    })
     return null
   }
   return entry
@@ -80,9 +83,9 @@ const staff = computed(() => {
                 class="absolute left-0 flex items-center justify-between px-6 py-4 bg-white shadow-md rounded-3xl right-12 -top-8"
               >
                 <div>
-                  <p class="text-xl font-semibold ">
+                  <h1 class="text-xl font-semibold ">
                     {{ staff.name }}
-                  </p>
+                  </h1>
                   <p
                     v-if="staff.title"
                     class="mt-1 text-xs tracking-[0.25em] uppercase "
@@ -106,9 +109,9 @@ const staff = computed(() => {
         <!-- RIGHT 2/3: bio text -->
         <div class="lg:col-span-2">
           <!-- You can keep or drop this heading -->
-          <h1 class="mb-6 text-3xl font-semibold text-brandBlue1">
+          <h2 class="mb-6 text-3xl font-semibold text-brandBlue1">
             About {{ staff.name }}
-          </h1>
+          </h2>
 
           <div
             class="text-lg leading-relaxed text-brandBlue1"
