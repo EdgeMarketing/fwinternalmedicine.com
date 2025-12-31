@@ -120,7 +120,7 @@ onUnmounted(() => window.removeEventListener('resize', handleResize))
         </button>
 
         <NuxtLink to="/" @click="closeMenu">
-          <img src="/images/logo-white.png" alt="Logo" class="mb-4 w-50">
+          <img src="/images/logo-white.png" alt="Fort Worth Internal Medicine" class="mb-4 w-50">
         </NuxtLink>
 
         <ul class="w-full mt-8">
