@@ -1,9 +1,3 @@
-<script setup>
-onMounted(() => {
-  console.log('Hello world.')
-})
-</script>
-
 <template>
   <Head>
     <Title>404 | Fort Worth Internal Medicine</Title>
