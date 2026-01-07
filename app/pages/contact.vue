@@ -184,6 +184,16 @@ const validationSchema = toTypedSchema(
                     info@fwinternalmedicine.com
                   </a>
                 </li>
+                <li class="flex gap-3">
+                  <span>
+                    <i class="fa-solid fa-clock" />
+                  </span>
+                  <span>
+                    Mon - Thurs 8am to 4:30pm<br>
+                    Lunch from 12:00 to 1:30pm<br>
+                    Fri 8am to Noon
+                  </span>
+                </li>
               </ul>
             </div>
           </div>

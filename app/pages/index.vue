@@ -180,19 +180,18 @@
             class="hero-image overflow-hidden rounded-3xl md:rounded-tl-[100px] bg-slate-200 shadow-xl relative w-full h-full"
           >
             <div class="relative w-full h-0 pb-[56.25%]">
-              <!-- <iframe
-                src="https://customer-wjh80wxi1grqfvvb.cloudflarestream.com/48df4ce20045b93ef7c1a8bd55c8ce0a/iframe?muted=true&preload=true&loop=true&autoplay=true&poster=https%3A%2F%2Fcustomer-wjh80wxi1grqfvvb.cloudflarestream.com%2F48df4ce20045b93ef7c1a8bd55c8ce0a%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+              <iframe
+                src="https://customer-wjh80wxi1grqfvvb.cloudflarestream.com/6e794c7feb654a6c50fdc43c26e9d524/iframe?muted=true&preload=true&loop=true&autoplay=true&poster=https%3A%2F%2Fcustomer-wjh80wxi1grqfvvb.cloudflarestream.com%2F6e794c7feb654a6c50fdc43c26e9d524%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
                 loading="lazy"
-                class="absolute inset-0 w-full h-full"
-                style="border: none;"
+                style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
                 allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
                 allowfullscreen="true"
-              /> -->
-              <img
+              />
+              <!-- <img
                 src="/images/hero.jpg"
                 alt="Doctor with patient at Fort Worth Internal Medicine"
                 class="absolute inset-0 object-cover w-full h-full"
-              >
+              > -->
             </div>
           </div>
         </div>
