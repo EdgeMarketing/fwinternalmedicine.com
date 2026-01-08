@@ -132,7 +132,7 @@ onUnmounted(() => window.removeEventListener('resize', handleResize))
           >
             <NuxtLink
               :to="item.to"
-              class="block py-4 text-lg tracking-widest"
+              class="block py-4 text-lg tracking-widest text-white"
               @click="closeMenu"
             >
               {{ item.label }}
