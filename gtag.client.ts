@@ -8,7 +8,7 @@ declare global {
 export default defineNuxtPlugin(() => {
   const measurementId = 'G-JQJNC95107'
 
-  // disables collection in local dev env
+ // disables collection in local dev env
   if (import.meta.dev) {
     return
   }
