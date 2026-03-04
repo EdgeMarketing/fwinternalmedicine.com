@@ -15,8 +15,8 @@ const faqs = [
   {
     q: 'What are your phlebotomy (blood draw) hours?',
     a: `
-      <p><strong>Thursday:</strong> 8:30am to 4:30pm</p>
-      <p><strong>Lunch:</strong> 12:00pm to 1:30pm</p>
+      <p><strong>Fridays</strong> from 8:30am to 11:30am. No appointment needed.</p>
+
     `,
   },
   {
