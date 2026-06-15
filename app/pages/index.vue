@@ -254,7 +254,57 @@
     </div>
   </section>
 
-  <section class="mt-24 section-wrapper bg-slate-50">
+  <section class="mt-24 text-white section-wrapper bg-brandBlue1">
+    <div class="container px-6 mx-auto lg:px-12">
+      <div class="grid gap-10 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.35fr)] lg:items-end">
+        <div class="space-y-4 js-anim anim anim-delay-1">
+          <p class="super-head !text-white/70">
+            PATIENT SURVEY RESULTS
+          </p>
+          <h2 class="main-head !text-white">
+            Patients consistently notice the difference
+          </h2>
+          <p class="section-detail !text-white/85">
+            Recent patient survey responses reflect the experience our office is built around: attentive visits, responsive service, and care that feels personal.
+          </p>
+          <p class="text-sm leading-relaxed !text-white/60">
+            Source: NRC patient survey responses, January 2024-March 2026.
+          </p>
+        </div>
+
+        <div class="grid gap-4 sm:grid-cols-3 js-anim anim anim-delay-2">
+          <div class="p-6 bg-white shadow-xl rounded-3xl">
+            <p class="text-4xl font-bold leading-none text-brandBlue1">
+              758
+            </p>
+            <p class="mt-3 text-sm font-semibold uppercase tracking-[0.18em] text-brandBlue2">
+              Survey Responses
+            </p>
+          </div>
+
+          <div class="p-6 bg-white shadow-xl rounded-3xl">
+            <p class="text-4xl font-bold leading-none text-brandBlue1">
+              9.88/10
+            </p>
+            <p class="mt-3 text-sm font-semibold uppercase tracking-[0.18em] text-brandBlue2">
+              Average Score
+            </p>
+          </div>
+
+          <div class="p-6 bg-white shadow-xl rounded-3xl">
+            <p class="text-4xl font-bold leading-none text-brandBlue1">
+              97%
+            </p>
+            <p class="mt-3 text-sm font-semibold uppercase tracking-[0.18em] text-brandBlue2">
+              Rated 9 or 10
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-wrapper bg-slate-50">
     <div class="container px-6 mx-auto space-y-12 lg:px-12">
       <!-- TOP: HEADLINE + IMAGE -->
       <div class="grid items-center gap-10 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)]">

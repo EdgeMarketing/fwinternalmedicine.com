@@ -49,6 +49,62 @@
           </p>
         </div>
       </div>
+
+      <div class="grid gap-5 mt-14 md:grid-cols-2 lg:grid-cols-3">
+        <figure class="h-full p-6 bg-white border border-slate-200 shadow-sm rounded-3xl js-anim anim anim-delay-1">
+          <blockquote class="text-lg font-medium leading-relaxed text-brandBlue1">
+            “Knowledgeable, caring physician who listens to patients and delivers excellent care.”
+          </blockquote>
+          <figcaption class="mt-5 text-sm font-semibold uppercase tracking-[0.18em] text-brandBlue2">
+            Anonymous patient survey response
+          </figcaption>
+        </figure>
+
+        <figure class="h-full p-6 bg-white border border-slate-200 shadow-sm rounded-3xl js-anim anim anim-delay-2">
+          <blockquote class="text-lg font-medium leading-relaxed text-brandBlue1">
+            “I received good medical care and felt like a valued human being.”
+          </blockquote>
+          <figcaption class="mt-5 text-sm font-semibold uppercase tracking-[0.18em] text-brandBlue2">
+            Anonymous patient survey response
+          </figcaption>
+        </figure>
+
+        <figure class="h-full p-6 bg-white border border-slate-200 shadow-sm rounded-3xl js-anim anim anim-delay-3">
+          <blockquote class="text-lg font-medium leading-relaxed text-brandBlue1">
+            “Best doctor's office I've ever been to. Everyone on the staff was excellent.”
+          </blockquote>
+          <figcaption class="mt-5 text-sm font-semibold uppercase tracking-[0.18em] text-brandBlue2">
+            Anonymous patient survey response
+          </figcaption>
+        </figure>
+
+        <figure class="h-full p-6 bg-white border border-slate-200 shadow-sm rounded-3xl js-anim anim anim-delay-1">
+          <blockquote class="text-lg font-medium leading-relaxed text-brandBlue1">
+            “The entire staff is there for you and you are assured that you will be taken care of in the very best way.”
+          </blockquote>
+          <figcaption class="mt-5 text-sm font-semibold uppercase tracking-[0.18em] text-brandBlue2">
+            Anonymous patient survey response
+          </figcaption>
+        </figure>
+
+        <figure class="h-full p-6 bg-white border border-slate-200 shadow-sm rounded-3xl js-anim anim anim-delay-2">
+          <blockquote class="text-lg font-medium leading-relaxed text-brandBlue1">
+            “The office had a real personalized feel about it. It was a very good feeling.”
+          </blockquote>
+          <figcaption class="mt-5 text-sm font-semibold uppercase tracking-[0.18em] text-brandBlue2">
+            Anonymous patient survey response
+          </figcaption>
+        </figure>
+
+        <figure class="h-full p-6 bg-white border border-slate-200 shadow-sm rounded-3xl js-anim anim anim-delay-3">
+          <blockquote class="text-lg font-medium leading-relaxed text-brandBlue1">
+            “Dr. Z was very thorough and listened to me thoughtfully.”
+          </blockquote>
+          <figcaption class="mt-5 text-sm font-semibold uppercase tracking-[0.18em] text-brandBlue2">
+            Anonymous patient survey response
+          </figcaption>
+        </figure>
+      </div>
     </div>
   </section>
 
