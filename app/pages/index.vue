@@ -140,7 +140,7 @@
                     Phone Number:
                   </p>
                   <p>
-                    <a href="tel:18173869818" class="text-white hover:opacity-80">
+                    <a href="tel:18173323039" class="text-white hover:opacity-80">
                       (817) 332-3039
                     </a>
                   </p>

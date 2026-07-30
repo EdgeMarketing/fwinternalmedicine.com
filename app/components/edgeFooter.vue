@@ -23,7 +23,7 @@
               <span>
                 <i class="fa-solid fa-phone" />
               </span>
-              <a href="tel:+18173869818" class="hover:underline">(817) 332-3039
+              <a href="tel:+18173323039" class="hover:underline">(817) 332-3039
               </a>
             </li>
             <li class="flex items-center gap-3">
