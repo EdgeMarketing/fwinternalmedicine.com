@@ -20,7 +20,7 @@ export default defineNuxtConfig({
     preset: 'cloudflare-pages',
     prerender: {
       crawlLinks: false,
-      routes: [], // Maintenance responses must be served with HTTP 503.
+      routes: [], // Serve maintenance pages dynamically at every public URL.
     },
   },
   compatibilityDate: '2024-11-01',

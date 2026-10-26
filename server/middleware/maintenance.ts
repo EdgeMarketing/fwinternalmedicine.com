@@ -5,9 +5,8 @@ export default defineEventHandler((event) => {
     return
   }
 
-  setResponseStatus(event, 503, 'Service Unavailable')
+  setResponseStatus(event, 200)
   setResponseHeaders(event, {
-    'Retry-After': '3600',
     'Cache-Control': 'no-store',
     'X-Robots-Tag': 'noindex, nofollow',
   })
