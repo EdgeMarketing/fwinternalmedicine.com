@@ -15,7 +15,7 @@ useHead({
   <main class="maintenance">
     <div class="maintenance-card">
       <div class="intro">
-        <img class="practice-icon" src="/favicon.ico" alt="" width="64" height="64">
+        <img class="practice-icon" src="/images/logo-symbol.svg" alt="" width="46" height="96">
         <p class="eyebrow">Thank you for your patience</p>
         <h1>Our website is<br>taking a little break.</h1>
         <p class="intro-copy">
@@ -76,7 +76,7 @@ useHead({
   box-shadow: 0 24px 80px #1246710a;
 }
 .intro { padding: 64px 56px; }
-.practice-icon { display: block; margin-bottom: 44px; }
+.practice-icon { display: block; width: auto; height: 96px; margin-bottom: 36px; }
 .eyebrow { margin: 0 0 16px; color: #0077a4; font-size: 12px; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; }
 h1 { margin: 0; font-size: clamp(34px, 4vw, 48px); line-height: 1.12; font-weight: 500; letter-spacing: -.035em; }
 .intro-copy { margin: 24px 0 30px; max-width: 340px; font-size: 17px; line-height: 1.7; color: #536878; }
@@ -99,7 +99,7 @@ a:focus-visible { outline: 3px solid #0077a4; outline-offset: 5px; border-radius
   .maintenance { padding: 28px 18px; }
   .maintenance-card { max-width: 500px; grid-template-columns: 1fr; border-radius: 14px; }
   .intro { padding: 34px 28px 38px; }
-  .practice-icon { margin-bottom: 28px; width: 56px; height: 56px; }
+  .practice-icon { margin-bottom: 28px; height: 80px; }
   .intro-copy { font-size: 16px; margin-top: 20px; }
   .contact { padding: 30px 28px; border-left: 0; border-top: 1px solid #e5edf0; }
   h2 { margin-bottom: 24px; }
