@@ -1,7 +1,5 @@
 <template>
-  <edge-navbar />
   <NuxtPage />
-  <edge-footer />
 </template>
 
 <style>

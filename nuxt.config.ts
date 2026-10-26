@@ -6,11 +6,21 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
   ssr: true,
+  // Temporarily replace every public page, preserving the original sources.
+  hooks: {
+    'pages:extend'(pages) {
+      pages.splice(0, pages.length, {
+        name: 'maintenance',
+        path: '/:pathMatch(.*)*',
+        file: new URL('./app/maintenance.vue', import.meta.url).pathname,
+      })
+    },
+  },
   nitro: {
     preset: 'cloudflare-pages',
     prerender: {
-      crawlLinks: true,
-      routes: ['/'], // Starting point for the crawler
+      crawlLinks: false,
+      routes: [], // Maintenance responses must be served with HTTP 503.
     },
   },
   compatibilityDate: '2024-11-01',
